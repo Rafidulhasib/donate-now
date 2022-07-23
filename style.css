@@ -1,3 +1,13 @@
+*{
+    box-sizing:border-box ;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
 .header{
     background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.3)),url(images/donation11.jpg);
     height: 100vh;
@@ -50,7 +60,7 @@
     transform: translate(12px,12px);
 }
 
-/* Second section start */
+/* Second section  */
 
 .second-page{
     font-size: 30px;
@@ -75,4 +85,76 @@
     color: #fff;
     border-radius: 40px;
 }
-        
+
+/* Third page section*/
+
+
+.third-page{
+    font-size: 30px;
+    text-align: center;
+    width:100%;
+    height:100vh;
+    justify-content: center;
+}
+.container{
+    width:1000px;
+    max-width:100%;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 12rem;
+    flex-wrap: wrap;
+    margin:30px 20px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.3); 
+    align-self: normal;
+}
+.card img{
+    max-width: 250px;
+    padding-left: 30px;
+    padding-top: 25px;
+}
+.card p{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.card h4{
+    font-size: 1.3rem;
+    margin:10px 0;
+}
+
+#clothes{
+    background: blueviolet;
+}
+#medicine{
+    background: pink;
+}
+#shelter{
+    background: greenyellow;
+}
+
+/* last part */
+.footer{
+    width: 100vw;
+    height: 8rem;
+    background-color: red;
+    margin-top:500px;
+    text-align: center;
+}
+.footer p{
+    font-size: 0.5rem;
+    text-align: center;
+    line-height: 5rem;
+    line-height: normal;
+}
+
+
+
